@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  background-image: url("../images/bg-mobile.png");
+  
+}
+
+.main {
+  background: rgb(33, 33, 103);
+  margin: 50% 2em;
+  padding: 3em;
+  border-radius: .75em;
+  border-top-right-radius: 5em;
+}
+
+.icons {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.logo {
+   margin-bottom: 1.5em;
+}
+
+.icon {
+  padding: 1em;
+  border-radius: .5em;
+  background: rgb(14, 28, 55);
+  
+}
